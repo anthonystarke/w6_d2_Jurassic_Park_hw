@@ -71,7 +71,7 @@ Park.prototype.visitorsPerYear = function(){
 
 Park.prototype.totalRevenue = function(){
   let totalRevenue = this.visitorsPerYear();
-  return totalRevenue * 50;
+  return totalRevenue * this.price;
 };
 
 Park.prototype.dietNumbers = function(){
